@@ -1,0 +1,502 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "companyName": "Công ty TNHH ABC siu",
+      "phone": "+84 912 345 678",
+      "email": "lienhe@abc.com",
+      "password": "P@ssw0rd123",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+      "address": "123 Đường Lớn, Quận 1, TP. HCM",
+      "workingTime": "08:00 - 17:00",
+      "website": "https://www.abc.com",
+      "quantityPeople": 150,
+      "description": "Công ty chuyên cung cấp giải pháp phần mềm vai o.",
+      "detail": "Công ty ABC thành lập năm 2010, hoạt động trong lĩnh vực phát triển phần mềm, tư vấn CNTT và đào tạo."
+    },
+    {
+      "id": 2,
+      "companyName": "Công ty Cổ phần XYZ",
+      "phone": "+84 903 210 987",
+      "email": "contact@xyz.vn",
+      "password": "xyzSecure!2025",
+      "token": "dGhpc0lzQVRva2VuRXhhbXBsZQ==",
+      "address": "45 Phố Mới, Hà Nội",
+      "workingTime": "09:00 - 18:00",
+      "website": "https://www.xyz.vn",
+      "quantityPeople": 45,
+      "description": "Doanh nghiệp hoạt động trong thương mại điện tử.",
+      "detail": "XYZ cung cấp nền tảng bán hàng trực tuyến, tích hợp thanh toán và logistics."
+    },
+    {
+      "id": 3,
+      "companyName": "Công ty Cổ phần Siu",
+      "phone": "+84 903 210 987",
+      "email": "contact@xyz.vn",
+      "password": "xyzSecure!2025",
+      "token": "dGhpc0lzQVRva2VuRXhhbXBsZQ==",
+      "address": "",
+      "workingTime": "09:00 - 18:00",
+      "website": "https://www.xyz.vn",
+      "quantityPeople": "",
+      "description": "Doanh nghiệp hoạt động trong thương mại điện tử.",
+      "detail": "XYZ cung cấp nền tảng bán hàng trực tuyến, tích hợp thanh toán và logistics."
+    },
+    {
+      "token": "0f6q6adRpYYj79MzvLInzbP1JYulEJvh",
+      "companyName": "hanquoc",
+      "email": "hasdiswd@gmail.com",
+      "password": "ASJDAKJSD1234",
+      "id": 4
+    },
+    {
+      "token": "2LCoE59lWiGCbO13ekt68ePHAShef76j",
+      "companyName": "mauhanquoc",
+      "email": "mauhanquoc@gmail.com",
+      "password": "123456",
+      "id": 5
+    }
+  ],
+  "cities": [
+    {
+      "key": 1,
+      "value": "Hà Nội"
+    },
+    {
+      "key": 2,
+      "value": "TP. Hồ Chí Minh"
+    },
+    {
+      "key": 3,
+      "value": "Đà Nẵng"
+    },
+    {
+      "key": 4,
+      "value": "Hải Phòng"
+    },
+    {
+      "key": 5,
+      "value": "Cần Thơ"
+    },
+    {
+      "key": 6,
+      "value": "Bình Dương"
+    },
+    {
+      "key": 7,
+      "value": "Nha Trang"
+    }
+  ],
+  "tags": [
+    {
+      "key": 1,
+      "value": "JavaScript"
+    },
+    {
+      "key": 2,
+      "value": "Java"
+    },
+    {
+      "key": 3,
+      "value": "Python"
+    },
+    {
+      "key": 4,
+      "value": "C#"
+    },
+    {
+      "key": 5,
+      "value": "PHP"
+    },
+    {
+      "key": 6,
+      "value": "TypeScript"
+    },
+    {
+      "key": 7,
+      "value": "Go"
+    },
+    {
+      "key": 8,
+      "value": "Ruby"
+    },
+    {
+      "key": 9,
+      "value": "Kotlin"
+    },
+    {
+      "key": 10,
+      "value": "Swift"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "idCompany": 1,
+      "name": "Frontend Developer siu",
+      "tags": [
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Ngôn ngữ phải chịu..."
+      ],
+      "salary": 2000,
+      "description": "Phát triển giao diện web, tối ưu trải nghiệm người dùng, responsive.",
+      "status": true,
+      "city": [
+        "Hà Nội",
+        "TP. Hồ Chí Minh",
+        "Phải chịu"
+      ],
+      "createAt": "29-04-2023 21:22:17",
+      "updateAt": "30-04-2023 14:12:25"
+    },
+    {
+      "id": 4,
+      "idCompany": 1,
+      "name": "Frontend Developer",
+      "tags": [
+        "JavaScript",
+        "React",
+        "TypeScript"
+      ],
+      "salary": 2000,
+      "description": "Phát triển giao diện web, tối ưu trải nghiệm người dùng, responsive.",
+      "status": true,
+      "city": [
+        "Hà Nội",
+        "TP. Hồ Chí Minh"
+      ],
+      "createAt": "29-04-2023 21:22:17",
+      "updateAt": "30-04-2023 14:12:25"
+    },
+    {
+      "id": 5,
+      "idCompany": 2,
+      "name": "Backend Developer",
+      "tags": [
+        "Java",
+        "Spring",
+        "SQL"
+      ],
+      "salary": 1000,
+      "description": "Xây dựng API, thiết kế database, tối ưu hiệu năng dịch vụ.",
+      "status": true,
+      "city": [
+        "Đà Nẵng"
+      ],
+      "createAt": "15-05-2023 09:10:05",
+      "updateAt": "20-05-2023 11:45:30"
+    },
+    {
+      "id": 6,
+      "idCompany": 2,
+      "name": "DevOps Engineer",
+      "tags": [
+        "Docker",
+        "Kubernetes",
+        "Go"
+      ],
+      "salary": 2000,
+      "description": "Thiết lập CI/CD, quản trị hạ tầng, giám sát và tự động hóa.",
+      "status": true,
+      "city": [
+        "Bình Dương"
+      ],
+      "createAt": "12-07-2023 13:05:12",
+      "updateAt": "18-07-2023 10:12:00"
+    },
+    {
+      "id": 7,
+      "idCompany": 1,
+      "name": "Frontend Developer",
+      "tags": [
+        "JavaScript",
+        "React",
+        "TypeScript"
+      ],
+      "salary": 2000,
+      "description": "Phát triển giao diện web, tối ưu trải nghiệm người dùng, responsive.",
+      "status": true,
+      "city": [
+        "Hà Nội",
+        "TP. Hồ Chí Minh"
+      ],
+      "createAt": "29-04-2023 21:22:17",
+      "updateAt": "30-04-2023 14:12:25"
+    },
+    {
+      "id": 8,
+      "idCompany": 1,
+      "name": "Frontend Developer",
+      "tags": [
+        "JavaScript",
+        "React",
+        "TypeScript"
+      ],
+      "salary": 2000,
+      "description": "Phát triển giao diện web, tối ưu trải nghiệm người dùng, responsive.",
+      "status": true,
+      "city": [
+        "Hà Nội",
+        "TP. Hồ Chí Minh"
+      ],
+      "createAt": "29-04-2023 21:22:17",
+      "updateAt": "30-04-2023 14:12:25"
+    },
+    {
+      "id": 9,
+      "idCompany": 1,
+      "name": "Frontend Developer",
+      "tags": [
+        "JavaScript",
+        "React",
+        "TypeScript"
+      ],
+      "salary": 2000,
+      "description": "Phát triển giao diện web, tối ưu trải nghiệm người dùng, responsive.",
+      "status": true,
+      "city": [
+        "Hà Nội",
+        "TP. Hồ Chí Minh"
+      ],
+      "createAt": "29-04-2023 21:22:17",
+      "updateAt": "30-04-2023 14:12:25"
+    },
+    {
+      "id": 10,
+      "idCompany": 1,
+      "name": "Frontend Developer",
+      "tags": [
+        "JavaScript",
+        "React",
+        "TypeScript"
+      ],
+      "salary": 2000,
+      "description": "Phát triển giao diện web, tối ưu trải nghiệm người dùng, responsive.",
+      "status": true,
+      "city": [
+        "Hà Nội",
+        "TP. Hồ Chí Minh"
+      ],
+      "createAt": "29-04-2023 21:22:17",
+      "updateAt": "30-04-2023 14:12:25"
+    },
+    {
+      "id": 11,
+      "idCompany": 1,
+      "name": "Frontend Developer",
+      "tags": [
+        "JavaScript",
+        "React",
+        "TypeScript"
+      ],
+      "salary": 2000,
+      "description": "Phát triển giao diện web, tối ưu trải nghiệm người dùng, responsive.",
+      "status": false,
+      "city": [
+        "Hà Nội",
+        "TP. Hồ Chí Minh"
+      ],
+      "createAt": "29-04-2023 21:22:17",
+      "updateAt": "30-04-2023 14:12:25"
+    },
+    {
+      "name": "saidasd",
+      "salary": 1231,
+      "description": "sadawdas",
+      "tags": [
+        "Python",
+        "PHP",
+        "TypeScript"
+      ],
+      "city": [
+        "Hải Phòng"
+      ],
+      "idCompany": "1",
+      "createAt": "16-10-2025 15:16:07",
+      "id": 12
+    },
+    {
+      "name": "asdawd",
+      "salary": 1231,
+      "description": "asdawd",
+      "status": true,
+      "tags": [
+        "siu"
+      ],
+      "city": [
+        "vai o"
+      ],
+      "idCompany": "1",
+      "createAt": "16-10-2025 15:17:37",
+      "id": 13
+    },
+    {
+      "name": "asdaswd",
+      "salary": 1234,
+      "description": "weasdsd",
+      "status": true,
+      "tags": [
+        "asdawd",
+        "Java"
+      ],
+      "city": [
+        "asdaw",
+        "Hải Phòng"
+      ],
+      "idCompany": "1",
+      "createAt": "16-10-2025 15:18:04",
+      "id": 14
+    },
+    {
+      "name": "asdasd1",
+      "salary": 1234,
+      "description": "asdawd",
+      "status": true,
+      "tags": [
+        "JavaScript",
+        "Python",
+        "C#",
+        "PHP",
+        "TypeScript"
+      ],
+      "city": [
+        "TP. Hồ Chí Minh",
+        "Đà Nẵng",
+        "Hải Phòng"
+      ],
+      "idCompany": "1",
+      "createdAt": "16-10-2025 15:47:26",
+      "id": 15
+    },
+    {
+      "name": "ádasdaasd",
+      "tags": [
+        "Java",
+        "Python",
+        "C#"
+      ],
+      "salary": 1234,
+      "city": [
+        "TP. Hồ Chí Minh",
+        "Đà Nẵng"
+      ],
+      "description": "vai o",
+      "status": true,
+      "idCompany": "1",
+      "createAt": "16-10-2025 16:15:59",
+      "id": 16
+    },
+    {
+      "name": "ádawd",
+      "tags": [
+        "Python",
+        "C#"
+      ],
+      "salary": 1241,
+      "city": [
+        "TP. Hồ Chí Minh",
+        "Đà Nẵng"
+      ],
+      "description": "ádafw",
+      "status": true,
+      "idCompany": "1",
+      "createAt": "16-10-2025 16:17:10",
+      "id": 17
+    }
+  ],
+  "cvs": [
+    {
+      "id": 1,
+      "idCompany": 1,
+      "idJob": 1,
+      "name": "Nguyễn Văn A",
+      "phone": "+84 912 345 001",
+      "email": "nguyenvana@example.com",
+      "description": "Frontend developer with 2 years experience in React and responsive design.",
+      "linkProject": "https://github.com/nguyenvana/portfolio",
+      "city": "Hà Nội",
+      "statusRead": true,
+      "createAt": "29-04-2023 21:22:17"
+    },
+    {
+      "id": 2,
+      "idCompany": 2,
+      "idJob": 2,
+      "name": "Trần Thị B",
+      "phone": "+84 903 210 002",
+      "email": "tranthib@example.com",
+      "description": "Backend engineer chuyên về Java, Spring và thiết kế RESTful API.",
+      "linkProject": "https://gitlab.com/tranthib/ecommerce-api",
+      "city": "TP. Hồ Chí Minh",
+      "statusRead": true,
+      "createAt": "05-05-2023 10:15:30"
+    },
+    {
+      "id": 4,
+      "idCompany": 2,
+      "idJob": 4,
+      "name": "Phạm Thị D",
+      "phone": "+84 977 555 444",
+      "email": "phamthid@example.com",
+      "description": "DevOps engineer, kinh nghiệm với Docker, Kubernetes và CI/CD pipelines.",
+      "linkProject": "https://bitbucket.org/phamthid/infra",
+      "city": "Bình Dương",
+      "statusRead": true,
+      "createAt": "20-07-2023 13:05:12"
+    },
+    {
+      "name": "mauhaianh",
+      "phone": 123456789,
+      "email": "haianhs2@gmail.com",
+      "city": "TP. Hồ Chí Minh",
+      "description": "sacascacwda",
+      "linkProject": "awdasasd",
+      "idJob": 2,
+      "idCompany": 1,
+      "createAt": "14-10-2025 15:04:59",
+      "statusRead": true,
+      "id": 5
+    },
+    {
+      "name": "mauhanquoc",
+      "phone": 912345678,
+      "email": "mauhanquoc@gmail.com",
+      "city": "Phải chịu",
+      "description": "Mau han quoc",
+      "linkProject": " link bai ta1, link bai tap 2",
+      "idJob": 1,
+      "idCompany": 1,
+      "createAt": "15-10-2025 15:05:37",
+      "statusRead": false,
+      "id": 6
+    },
+    {
+      "name": "mauhanquoc",
+      "phone": 123123123,
+      "email": "anh@gmail.com",
+      "city": "Phải chịu",
+      "description": "siu",
+      "linkProject": "siu 1 siu 2",
+      "idJob": 1,
+      "idCompany": 1,
+      "createAt": "15-10-2025 15:17:22",
+      "statusRead": false,
+      "id": 7
+    },
+    {
+      "name": "sadasdasd",
+      "phone": 123123123,
+      "email": "haianh@gmail.com",
+      "city": "TP. Hồ Chí Minh",
+      "description": "sdasd",
+      "linkProject": "asdasda",
+      "idJob": 1,
+      "idCompany": 1,
+      "createAt": "15-10-2025 15:18:16",
+      "statusRead": false,
+      "id": 8
+    }
+  ]
+}
